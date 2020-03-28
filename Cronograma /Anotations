@@ -1,0 +1,22 @@
+Tipos de Parâmetros
+
+Query Params: Parâmetros nomeados enviados nas rotas após "?" (Filtros, Paginaçãp);
+Route Params: Parâmetros utilizados para identificar recursos;
+Request Body: Corpo da Requisição , para criar ou alterar recursos;
+
+
+
+DB (KNEX)
+
+Query Builder : table('users').select('*').where();
+
+
+
+
+NPM's
+
+npm install knex //instala o knex
+npm install sqlite3 //instala o sqlite (pode ser outro DB)
+npx knex init // inicia o knex com o arquivo 'knexfile.js'
+npx knex migrate:make name_migration //cria a migrate
+npx knex migrate:latest //adiciona a migrate no banco

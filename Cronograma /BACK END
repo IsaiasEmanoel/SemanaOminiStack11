@@ -1,0 +1,16 @@
+BACK END
+
+- Node.JS e Express
+
+ - Rotas e Recursos
+ - Métodos HTTP
+ - Tipo de Parâmetros
+
+- Configurando Nodemon
+- Utilizando o Insomnia
+- Diferença entre bancos de dados
+- Configurando Banco de dados
+- Pensando nas Entidades e Funcionalidades
+- Construção do Back-End
+- Adicionando módulo CORS
+- Enviando back-end ao GitHub
